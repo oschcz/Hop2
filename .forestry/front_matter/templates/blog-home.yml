@@ -45,3 +45,12 @@ fields:
 - type: text
   name: footer
   label: footer
+- name: cuerpo
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Cuerpo
