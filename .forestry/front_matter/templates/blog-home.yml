@@ -1,0 +1,47 @@
+---
+label: Blog home
+hide_body: false
+fields:
+- type: boolean
+  name: home
+  label: home
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: icon
+  label: icon
+- type: text
+  name: title
+  label: title
+- type: file
+  name: heroImage
+  label: heroImage
+- type: text
+  name: heroText
+  label: heroText
+- type: text
+  name: tagline
+  label: tagline
+- type: boolean
+  name: heroFullScreen
+  label: heroFullScreen
+- type: field_group_list
+  name: projects
+  label: projects
+  fields:
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: desc
+    label: desc
+  - type: text
+    name: link
+    label: link
+- type: text
+  name: footer
+  label: footer
