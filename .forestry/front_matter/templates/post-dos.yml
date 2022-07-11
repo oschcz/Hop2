@@ -1,6 +1,6 @@
 ---
 label: Post dos
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: icon
@@ -14,3 +14,12 @@ fields:
 - type: list
   name: tag
   label: tag
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
